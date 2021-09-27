@@ -1,22 +1,73 @@
-body {
-  margin: 60px auto;
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-}
-h1,
-h2 {
-  color: black;
-  font-family: "Playfair Display", serif;
-  font-weight: 700;
+:root {
+  --primary-color: #ccd2e0;
+  --secondary-color: #6c7184;
+  --heading-font-family: "Playfair Display", serif;
+  --default-font-family: "Poppins", sans-serif;
+  --name-font-family: "Rock Salt", sans-serif;
 }
 
+body {
+  font-family: var(--default-font-family);
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+h2 {
+  font-size: 64px;
+}
+p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+.bg-mine {
+  background-color: var(--primary-color);
+}
+
+.hero {
+  margin-top: -4px;
+  text-align: center;
+  padding: 160px 20px;
+}
+.hero h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
+.hero h3 {
+  font-weight: 400;
+  line-height: 1.5;
+  font-size: 24px;
+  font-family: var(--name-font-family);
+}
+.hero p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  font-family: var(--name-font-family);
+}
 .btn {
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: 500;
 }
-
+.btn-branding {
+  background: var(--secondary-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
 .name {
-  font-family: "Rock Salt", sans-serif;
+  font-family: var(--name-font-family);
   font-size: 12px;
 }
 .titl {
@@ -28,4 +79,18 @@ h2 {
   top: 0;
   right: 0;
   left: 0;
+}
+.text-center {
+  text-align: center !important;
+}
+.project-desciption {
+  padding: 120px 60px;
+}
+.btn-mine {
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
