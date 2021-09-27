@@ -1,7 +1,28 @@
 body {
   margin: 60px auto;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+h1,
+h2 {
+  color: black;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
 }
 
+.btn {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.name {
+  font-family: "Rock Salt", sans-serif;
+  font-size: 12px;
+}
+.titl {
+  font-size: 72px;
+  text-align: center;
+}
 .fixed {
   position: fixed;
   top: 0;
