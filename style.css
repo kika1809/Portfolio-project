@@ -68,11 +68,9 @@ p {
 }
 .name {
   font-family: var(--name-font-family);
-  font-size: 12px;
 }
-.titl {
-  font-size: 72px;
-  text-align: center;
+.ind-logo {
+  font-size: 12px;
 }
 .fixed {
   position: fixed;
@@ -83,7 +81,7 @@ p {
 .text-center {
   text-align: center !important;
 }
-.project-desciption {
+.project-description {
   padding: 120px 60px;
 }
 .btn-mine {
@@ -93,4 +91,26 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px !important;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px !important;
+  }
+
+  .hero {
+    padding: 80px 20px;
+  }
+  .hero p {
+    font-size: 28px !important;
+  }
+
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
