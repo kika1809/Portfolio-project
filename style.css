@@ -21,20 +21,56 @@ h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
 }
+h1 {
+  font-size: 96px;
+  line-height: 1.5;
+}
 h2 {
   font-size: 64px;
+}
+h3 {
+  font-size: 48px;
+}
+h4 {
+  font-size: 48px;
 }
 p {
   font-weight: normal;
   font-size: 16px;
   line-height: 30px;
 }
+footer {
+  margin: 60px 0;
+}
+footer .contact-box {
+  background: var(--primary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p {
+  margin: 0;
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background: var(--primary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
 .bg-mine {
   background-color: var(--primary-color);
 }
-
-.hero {
+.first {
   margin-top: -4px;
+}
+.hero {
   text-align: center;
   padding: 160px 20px;
 }
@@ -83,6 +119,12 @@ p {
 }
 .project-description {
   padding: 120px 60px;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+.logo {
+  max-height: 25px;
 }
 .btn-mine {
   color: var(--secondary-color);
