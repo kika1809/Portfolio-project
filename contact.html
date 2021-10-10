@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,9 +26,14 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="stylesheet" href="/style.css" />
-    <title>Document</title>
+
+    <title>Contact Kristina Kocur</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-mine fixed">
@@ -58,48 +64,93 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/index.html"
-                >Home</a
+              <a class="nav-link" href="/index.html" title="Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/about.html" title="About Kristina"
+                >About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="/contact.html">Contact</a>
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/contact.html"
+                title="Contact Kristina"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <div class="first">
-      <h1>Contact</h1>
-      <p>This are some of my projects, more in development 👩🏻‍💻</p>
-    </div>
-
-    <div class="container contact">
-      <div class="row">
-        <div class="col-sm-8">
-          <ul>
-            <li>Kristina Kocur</li>
-            <li>Knin, Croatia</li>
-            <li>kristinakocur2@gmail.com</li>
-            <li>
-              <a href="mailto:kristinakocur2@gmail.com" class="btn btn-primary"
-                >Send me a mail</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm-4">
-          <img
-            src="/images/Weather-app.png"
-            class="img-fluid rounded"
-            width="150px"
-          />
-        </div>
+    <div class="content-container container">
+      <div class="content">
+        <h1 class="mb-5">Let's get in touch!</h1>
+        <h3>Email</h3>
+        <p>
+          <a href="mailto:kristinakocur2@gmail.com">
+            kristinakocur2@gmail.com
+          </a>
+        </p>
+        <h3>LinkedIn</h3>
+        <p>
+          <a
+            href="https://www.linkedin.com/in/kristina-kocur-282399b5/"
+            target="_blank"
+          >
+            Kristina Kocur
+          </a>
+        </p>
       </div>
     </div>
-    <img src="" alt="" />
+    <footer>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Kristina"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:kristinakocur2@gmail.com"
+          class="email-link"
+          title="Email Kristina"
+        >
+          kristinakocur2@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/kika1809"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kristina-kocur-282399b5/"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This website was coded by Kristina Kocur, and is
+        <a href="https://github.com/kika1809/Portfolio-project" target="_blank">
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
