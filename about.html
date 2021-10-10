@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Hi! I'm Kristina, a croatian front-end developer. Feel free to check my portfolio!"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,9 +29,14 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      crossorigin="anonymous"
+    ></script>
 
     <link rel="stylesheet" href="/style.css" />
-    <title>Document</title>
+
+    <title>About Kristina Kocur</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-mine fixed">
@@ -58,25 +67,99 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="/index.html"
-                >Home</a
+              <a class="nav-link" href="/index.html" title="Homepage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="/about.html"
+                title="About Kristina"
+                >About</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="/about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contact.html">Contact</a>
+              <a class="nav-link" href="/contact.html" title="Contact Kristina"
+                >Contact</a
+              >
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <h1 class="first">About me</h1>
-    <h3>Front-end developer, based in Croatia</h3>
+    <div class="content-container container">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <div class="content">
+            <h1 class="mb-4">Hi, I’m Kristina</h1>
+            <h2 class="mb-4">Front-end developer based in Croatia</h2>
+            <p class="mb-5">
+              I’m currently seeking new opportunities in front-end development.
+              I’m open to work remotely and have flexible hours. I’m highly
+              skilled in JavaScript and React.
+            </p>
+            <a href="#work" class="btn btn-branding">See my projects below</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/kristina.jpg" alt="Kristina" class="img-fluid" />
+        </div>
+      </div>
+    </div>
 
-    <p>This are some of my projects, more in development 👩🏻‍💻</p>
+    <p id="work">These are some of my projects, more in development 👩🏻‍💻</p>
+    <div class="content-container container">
+      <div class="content">
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <img
+              src="images/Plitvice.png"
+              class="img-fluid mb-3 rounded"
+              alt="Plitvice project preview"
+            />
+            <h3 class="text-center m-0">Plitvice Holiday Resort</h3>
+            <p class="text-center text-muted">
+              Built with HTML, CSS, and JavaScript
+            </p>
+          </div>
+          <div class="col-md-6 mb-4">
+            <img
+              src="images/Weather-app.png"
+              class="img-fluid mb-3 rounded"
+              alt="Weather project preview"
+            />
+            <h3 class="text-center m-0">Weather App</h3>
+            <p class="text-center text-muted">
+              Built using HTML, an active API, and advanced CSS and JavaScript
+            </p>
+          </div>
+          <div class="col-md-6 mb-4">
+            <img
+              src="images/dictionary.png"
+              class="img-fluid mb-3 rounded"
+              alt="Disctionary project preview"
+            />
+            <h3 class="text-center m-0">Dictionary App</h3>
+            <p class="text-center text-muted">
+              Built using HTML, an active API, advanced CSS, and React
+            </p>
+          </div>
+          <div class="col-md-6 mb-4">
+            <img
+              src="images/translation.png"
+              class="img-fluid mb-3 rounded"
+              alt="Translation project preview"
+            />
+            <h3 class="text-center m-0">Translation App</h3>
+            <p class="text-center text-muted">
+              Built using HTML, an active API, advanced CSS, and React
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <img src="" alt="" />
     <h2>Education</h2>
     <div class="container education">
@@ -171,5 +254,53 @@
     </div>
 
     <h2>Drivers licence: ✔</h2>
+    <footer>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h3>Work Inquiry</h3>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn btn-branding mt-3"
+            title="Contact Kristina"
+          >
+            Contact me
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:kristinakocur2@gmail.com"
+          class="email-link"
+          title="Email Kristina"
+        >
+          kristinakocur2@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://github.com/kika1809"
+          target="_blank"
+          title="GitHub Profile"
+        >
+          <i class="fab fa-github" aria-hidden="true"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in/kristina-kocur-282399b5/"
+          target="_blank"
+          title="LinkedIn Profile"
+        >
+          <i class="fab fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This website was coded by Kristina Kocur, and is
+        <a href="https://github.com/kika1809/Portfolio-project" target="_blank">
+          open-sourced
+        </a>
+      </p>
+    </footer>
   </body>
 </html>
