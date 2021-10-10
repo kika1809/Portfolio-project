@@ -67,10 +67,9 @@ footer .social-links a {
 .bg-mine {
   background-color: var(--primary-color);
 }
-.first {
-  margin-top: -4px;
-}
+
 .hero {
+  margin-top: -4px;
   text-align: center;
   padding: 160px 20px;
 }
@@ -78,17 +77,10 @@ footer .social-links a {
   font-size: 96px;
   line-height: 1.5;
 }
-.hero h3 {
-  font-weight: 400;
-  line-height: 1.5;
-  font-size: 24px;
-  font-family: var(--name-font-family);
-}
+
 .hero p {
   font-size: 36px;
-  font-weight: bold;
   margin: 0;
-  font-family: var(--name-font-family);
 }
 .btn {
   font-family: var(--default-font-family);
@@ -134,7 +126,6 @@ footer .social-links a {
   line-height: 27px;
   padding: 15px 30px;
 }
-
 @media (max-width: 900px) {
   h1 {
     font-size: 44px !important;
